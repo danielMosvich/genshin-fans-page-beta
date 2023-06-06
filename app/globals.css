@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --icon-gradient: url("https://rerollcdn.com/STARRAIL/Rarity/5_sm.png");
+
+  --Pyro-color:#f55555;
+  --Dendro-color:#6fac11;
+  --Anemo-color:#0fa08f;
+  --Electro-color:#7c3aed;
+  --Cryo-color:#28a3b1;
+  --Hydro-color:#3b82f6;
+  --Geo-color:#eab308;
+  --Pyro: radial-gradient(
+    circle,
+    rgb(252, 104, 85) 0%,
+    #f55555 100%
+  );
+  --Dendro: radial-gradient(
+    circle,
+    #a3e635 0%,
+    #6fac11 100%
+  );
+  --Anemo: radial-gradient(
+    circle,
+    rgb(133, 223, 205) 0%,
+    #0fa08f 100%
+  );
+  --Electro: radial-gradient(
+    circle,
+    rgba(192, 132, 252, 1) 0%,
+    #7c3aed 100%
+  );
+  --Cryo: radial-gradient(
+    circle,
+    rgba(191, 234, 254, 1) 0%,
+    #a5f3fc 100%
+  );
+  --Hydro: radial-gradient(
+    circle,
+    rgba(56, 189, 248, 1) 0%,
+    #3b82f6 100%
+  );
+  --Geo: radial-gradient(
+    circle,
+    rgba(255, 223, 122, 1) 0%,
+    #eab308 100%
+  );
+  --Cryo-icon: rgb(50, 192, 248);
+  --Pyro-icon: rgb(248, 50, 50);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
